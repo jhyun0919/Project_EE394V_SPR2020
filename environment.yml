@@ -4,6 +4,7 @@ channels:
 dependencies:
   - appnope=0.1.0=py37_0
   - attrs=19.3.0=py_0
+  - autopep8=1.4.4=py_0
   - backcall=0.1.0=py37_0
   - bleach=3.1.0=py37_0
   - ca-certificates=2020.1.1=0
@@ -54,6 +55,7 @@ dependencies:
   - prompt-toolkit=3.0.4=py_0
   - prompt_toolkit=3.0.4=0
   - ptyprocess=0.6.0=py37_0
+  - pycodestyle=2.5.0=py37_0
   - pygments=2.6.1=py_0
   - pyqt=5.9.2=py37h655552a_2
   - pyrsistent=0.15.7=py37h1de35cc_0
@@ -79,6 +81,7 @@ dependencies:
   - wheel=0.34.2=py37_0
   - widgetsnbextension=3.5.1=py37_0
   - xz=5.2.4=h1de35cc_4
+  - yapf=0.28.0=py_0
   - zeromq=4.3.1=h0a44026_3
   - zipp=2.2.0=py_0
   - zlib=1.2.11=h1de35cc_3
