@@ -47,7 +47,7 @@ DC optimal power flow is one of linear optimization problem to estimate the most
 According to \cite{1802.09639}, we could assume the system has $n$ generators, $m$ transmission lines, $v$ buses, and $v$ loads. We set a graph $\mathcal{G}( \mathcal{V}, \mathcal{E})$, where $\mathcal{V}$ denotes the nodes of the graph corresponding to the buses with $\left| \mathcal{V} \right| = v$, and the edges $\mathcal{E}$ denote the transmission lines with $\left| \mathcal{E} \right| = m$.
 
 \subsubsection{Control Policy}
-A $control \; policy \; \rho : \Omega\rightarrow \mathbb{R^{n}}$ is a mapping that adjusts the generation in response to uncertainty realization $\omega \in \Omega$. In the following analysis, we constrict ourselves to the set $\Omega^{R}\coloneqq\left \{ \omega:\mathcal{P}^{\star} \left ( \omega \right )\neq \emptyset \right \}$ of recovery scenarios, i.e., the scenario for which a feasible solution can be found.
+A $control \; policy \; \rho : \Omega\rightarrow \mathbb{R^{n}}$ is a mapping that adjusts the generation in response to uncertainty realization $\omega \in \Omega$. 
 
 \begin{align}\label{eq:opf}
 \rho^{\star}\left (  \omega \right )\in \underset{p}{\mathrm{argmin}} \; c^{\top }p \\
@@ -63,6 +63,8 @@ A $control \; policy \; \rho : \Omega\rightarrow \mathbb{R^{n}}$ is a mapping th
 ~ &~ f^{min}\leq M\left ( Hp+\mu +\omega -d \right )  \leq f^{max}, \nonumber \\
 ~ &~ e^{\top }p=e^{\top }\left ( d-\mu -\omega  \right )  \}
 \end{align}
+
+In the following analysis, we constrict ourselves to the set $\Omega^{R}\coloneqq\left \{ \omega:\mathcal{P}^{\star} \left ( \omega \right )\neq \emptyset \right \}$ of recovery scenarios, i.e., the scenario for which a feasible solution can be found. 
 
 \subsubsection{Affine Control Policy}
 \begin{align}\label{eq:opf_poly_compact}
