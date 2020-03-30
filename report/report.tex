@@ -38,13 +38,13 @@ Optimal power flow is used in power system operational planning to estimate the 
 
 
 \section{Introduction}\label{sec:intro}
-DC optimal power flow is one of linear optimization problem to estimate the most economical efficiency solution. Also, the solution satisfies the constraints related to demand and safety. Due to increasing increasing integration of renewable, as well as complexity of demand-side behavior, estimating the solution of DC optimal flow needs to be updated near real-time in response to observed uncertainty realization. Traditionally, affine control policy is proposed to address frequent updating issue. This method allows re-solving the OPF at a much faster time scale. However, due to its high computational complexity, it has limitations for tight latency requirements and large size of systems. In this paper, we propose the use of neural network as a classifier to enable extremely low computational complexity compared to the traditional method. Moreover, to boost up the performance, the classifier will learn the mapping from uncertainty realization $\omega$ to active constraints set $\mathcal{A^{\star}}$ at optimality instead of the adjustment in generation.
+DC optimal power flow is one of linear optimization problem to estimate the most economical efficiency solution. Also, the solution satisfies the constraints related to demand and safety. Due to increasing increasing integration of renewable, as well as complexity of demand-side behavior, estimating the solution of DC optimal flow needs to be updated near real-time in response to observed uncertainty realization. Traditionally, affine control policy is proposed to address frequent updating issue. This method allows re-solving the OPF at a much faster time scale. However, due to its high computational complexity, it has limitations for tight latency requirements and large size of systems. In this paper, we propose the use of neural network as a classifier to enable extremely low computational complexity compared to the traditional method. Moreover, to boost up the performance, the classifier will learn the mapping from uncertainty realization $\omega$ to active constraints set $\mathcal{A^{\star}}$ at optimality instead of directly map to the adjustment in generation.
 
 
 
 \section{Problem Formulation}\label{sec:problem}
 \subsection{OPF Problem for a Given Uncertainty Realization}
-According to [6], we assume the system has $n$ generators, $m$ transmission lines, $v$ buses, and $v$ loads. We can set a graph $\mathcal{G}( \mathcal{V}, \mathcal{E})$, where $\mathcal{V}$ denotes the nodes of the graph corresponding to the buses with $\left| \mathcal{V} \right| = v$, and the edges $\mathcal{E}$ denote the transmission lines with $\left| \mathcal{E} \right| = m$.
+According to \cite{1802.09639}, we could assume the system has $n$ generators, $m$ transmission lines, $v$ buses, and $v$ loads. We set a graph $\mathcal{G}( \mathcal{V}, \mathcal{E})$, where $\mathcal{V}$ denotes the nodes of the graph corresponding to the buses with $\left| \mathcal{V} \right| = v$, and the edges $\mathcal{E}$ denote the transmission lines with $\left| \mathcal{E} \right| = m$.
 
 \subsubsection{Control Policy}
 A $control \; policy \; \rho : \Omega\rightarrow \mathbb{R^{n}}$ is a mapping that adjusts the generation in response to uncertainty realization $\omega \in \Omega$. In the following analysis, we constrict ourselves to the set $\Omega^{R}\coloneqq\left \{ \omega:\mathcal{P}^{\star} \left ( \omega \right )\neq \emptyset \right \}$ of recovery scenarios, i.e., the scenario for which a feasible solution can be found.
@@ -99,7 +99,7 @@ e^{\top}\left(d-\mu-\omega\right)
 \begin{figure}[h]\label{fig:opf_nns}
 \centering
 \includegraphics[scale=0.2]{report/figure/OPF NNs Classifier.png}
-\caption{OPF Solution via Neural Network Classifier. [ref]}
+\caption{OPF Solution via Neural Network Classifier. \cite{10.1109/ptc.2019.8810819}}
 \end{figure}
 We employ the classification algorithm to learn the mapping from uncertainty realization $\omega$ to the corresponding active constraint set $\mathcal{A}^{\star}\left( \omega \right)$. We use neural network to build a classifier $\hat{\rho}$, the details are described in 2.2. The followings are metrics of the performance of the classifier.
 
@@ -112,7 +112,7 @@ We employ the classification algorithm to learn the mapping from uncertainty rea
 \begin{figure}[h]\label{fig:nns_arch}
 \centering
 \includegraphics[scale=0.31]{report/figure/NNs arch.png}
-\caption{Architecture of the Neural Network Classifier. [ref]}
+\caption{Architecture of the Neural Network Classifier. \cite{10.1109/ptc.2019.8810819}}
 \end{figure}
 \subsubsection{Neural Network Classifier}
 This section will cover the architecture of neural network as a classifier. Also, we will specify the input and output data for the classifier. We will use Tensorflow or Pytorch for the experiments. 
@@ -124,27 +124,68 @@ This section will cover training process such as how to improve performance by a
 
 \section{Numerical Experiments}\label{sec:tests}
 \subsection{Dataset:  IEEE PES PGLib-OPF Benchmark Library}
-This section will cover the analysis and pre-processing of the dataset.
+This section will cover the analysis and pre-processing of the dataset \cite{pglib-opf}. 
 
 \subsection{Experiments Rsults}
 This section will cover the results for the following experiments.
 \begin{itemize}
-  \item 
-  \item 
-  \item
+  \item Set up OPF Test-cases for the learning
+  \item Check Probability distribution of active sets of different OPF test-cases
+  \item Observation of the change of accuracy according to the number of layers of fully connected layer (FCN).
+  \item Check accuracy of active set top-K classification for different test cases with change in training data set size.
 \end{itemize}
 
 
 
 \section{Concluding Remarks}\label{sec:conclusions}
-In this section, we will discuss whether the performance of classification is satisfactory and whether online updating is possible due to the reduced computational complexity.
+In this section, we will discuss whether the performance of classification is satisfactory and whether online updating is possible due to the reduced computational complexity. As further studies, we will discuss how to extend the proposed method to AC OPF with non-linear variations. Also, we will discuss about setting a set of parallel binary classifiers to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints. 
 
 \begin{thebibliography} {TL99}
 \bibitem{WWS} {\sc A. J. Wood, B. F. Wollenberg, and G. B. Sheble.} Power Generation, Operation, and Control, Wiley, 2014.
 
-\bibitem{YGC02} {\sc S.\ Boyd and L.\ Vandenberghe.} Convex Optimization,
-Cambridge University Press, 2004.
-\end{thebibliography}
+\bibitem{YGC02} {\sc S.\ Boyd and L.\ Vandenberghe.} Convex Optimization, Cambridge University Press, 2004.
 
+\bibitem{10.1109/ptc.2019.8810819}
+{D. Deka and S. Misra.}
+“Learning for DC-OPF: Classifying active sets using neural nets,” 2019 IEEE Milan PowerTech, 2019.
+
+\bibitem{1802.09639}
+Sidhant Misra, Line Roald and Yeesian Ng.
+\newblock “Learning for Constrained Optimization: Identifying Optimal Active Constraint Sets,” 2018;
+\newblock arXiv:1802.09639.
+
+\bibitem{10.23919/pscc.2018.8442859}
+{\sc Y. A. Ng, S. A. Misra, L. A. Roald, and S. A. Backhaus.}
+“Statistical Learning for DC Optimal Power Flow,” 2018 Power Systems Computation Conference (PSCC), 2018.
+
+\bibitem{}
+{\sc B. Borkowska,}
+“Probabilistic load flow,” IEEE Transactions on Power App. Syst., vol. PAS-93, no. 3, pp. 752–759, 1974.
+
+\bibitem{}
+{\sc M. Vrakopoulou, K. Margellos, J. Lygeros, and G. Andersson.}
+“Prob- abilistic Guarantees for the N-1 Security of Systems with Wind Power Generation,” in Probabilistic Methods Applied to Power Systems (PMAPS), Istanbul, Turkey, 2012.
+
+\bibitem{}
+{\sc L. Roald, S. Misra, T. Krause, and G. Andersson,}
+“Corrective control to handle forecast uncertainty: A chance constrained optimal power flow,” IEEE Trans. Power Systems, vol. 32, no. 2, pp. 1626–1637, 2017.
+
+\bibitem{}
+{\sc R. D. Christie, B. F. Wollenberg, and I. Wangensteen,}
+“Transmission management in the deregulated environment,” Proceedings of the IEEE, vol. 88, no. 2, pp. 170–195, 2000.
+
+\bibitem{}
+{\sc A. Alessio and A. Bemporad,}
+“A survey on explicit model predictive control,” in Nonlinear model predictive control. Springer, 2009, pp. 345–369.
+
+\bibitem{}
+{\sc D. Walkup and R. Wets,}
+“Lifting projections of convex polyhedra,” Pacific Journal of Mathematics, vol. 28, no. 2, pp. 465–475, 1969.
+
+\bibitem{pglib-opf}
+{}
+The IEEE PES Task Force on Benchmarks for Validation of Emerging Power System Algorithms, “PGLib Optimal Power Flow Benchmarks,” Published online at https://github.com/power-grid-lib/pglib-opf, accessed: March 30, 2020.
+
+\end{thebibliography}
 
 \end{document}
