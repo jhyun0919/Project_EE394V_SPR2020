@@ -1,6 +1,6 @@
 # OPF Project EE 394V SPR2020
 
-This is a repository that manages the report and the code file that implements the contents covered in [1].
+This is a repository that manages the report and the code file that implements the contents covered in [[1]](https://ieeexplore.ieee.org/document/8810819).
 
 
 ## Abstract
