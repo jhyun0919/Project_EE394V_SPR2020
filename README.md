@@ -32,7 +32,7 @@ For following numerical experiment steps, we will use dataset from the [IEEE PES
 
 ### Further Studies (Optional)
 
-- [ ] How to extend the proposed method to AC OPF with non-linear variations. 
+- [ ] Extending the proposed method to AC OPF with non-linear variations. 
 - [ ] Adding a set of parallel binary classifiers to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints. 
 
 
