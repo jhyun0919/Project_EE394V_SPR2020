@@ -6,7 +6,7 @@ This is a repository managing a report and codes that implements the contents co
 - [X] [Project Proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf)
 - [ ] [Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes)
 - [ ] [Project Report](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
-- [ ] [Further Study Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes)
+- [ ] [Further Study Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes) (Optional)
 
 ---
 
@@ -30,7 +30,7 @@ For following numerical experiment steps, we will use dataset from the [IEEE PES
 - Observation of the change of accuracy according to the number of layers of fully connected layer (FCN).
 - Check accuracy of active set top-K classification for different test cases with change in training data set size.
 
-### Further Study
+### Further Study (Optional)
 
 - [ ] How to extend the proposed method to AC OPF with non-linear variations. 
 - [ ] Adding a set of parallel binary classifiers to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints. 
