@@ -1,6 +1,6 @@
 # OPF Project EE 394V SPR2020
 
-This is a repository that manages the report and the code file that implements the contents covered in [[1]](https://ieeexplore.ieee.org/document/8810819).
+This is a repository managing a report and codes that implements the contents covered in [[1]](https://ieeexplore.ieee.org/document/8810819).
 
 
 ### Optimal Power Flow
