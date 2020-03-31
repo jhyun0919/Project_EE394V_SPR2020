@@ -4,8 +4,8 @@ This is a repository managing a report and codes that implements the contents co
 
 ### Contents
 - [X] [Project_Proposal.pdf](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf)
+- [ ] [Project_Final_Report.pdf](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
 - [ ] [Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes)
-- [ ] [Project_Report.pdf](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
 - [ ] [Further Study Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes) (Optional)
 
 ---
