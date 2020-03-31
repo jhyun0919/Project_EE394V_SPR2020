@@ -3,9 +3,9 @@
 This is a repository managing a report and codes that implements the contents covered in [[1]](https://ieeexplore.ieee.org/document/8810819).
 
 ### Contents
-- [Proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf)
-- [Implementation codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes)
-- [Report](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
+- [Project Proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf)
+- [Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes)
+- [Project Report](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
 
 ---
 
