@@ -23,7 +23,7 @@ Optimal power flow is used in power system operational planning to estimate the 
 - Choose to learn the mapping from uncertainty realization to active constraints set at optimality instead of directly map to the adjustment in the generation, which will guarantee the satisfactory performance of the neural net classifier.
 
 ### Experiments
-For following numerical experiment steps, we will use dataset from the [IEEE PES PGLib-OPF benchmark library](https://github.com/power-grid-lib/pglib-opf).
+For following numerical experiments steps, we will use dataset from the [IEEE PES PGLib-OPF benchmark library](https://github.com/power-grid-lib/pglib-opf).
 
 - Set up OPF Test-cases for the learning.
 - Check probability distribution of active sets of different OPF test-cases.
