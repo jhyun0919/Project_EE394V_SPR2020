@@ -17,7 +17,7 @@ Optimal power flow is used in power system operational planning to estimate the 
 - Due to increasing uncertainty and variability in energy sources and demand, the optimal solution needs to be updated near real-time to respond to observed uncertainty realizations.
 - The existing method of solving the optimal problem could not cope with frequent updating due to the high computational complexity.
 
-### Main Contribution
+### Main Contributions
 
 - Propose the use of neural network as a classifier to enable extremely low computational complexity compared to the traditional method. 
 - Choose to learn the mapping from uncertainty realization to active constraints set at optimality instead of directly map to the adjustment in the generation, which will guarantee the satisfactory performance of the neural net classifier.
@@ -30,7 +30,7 @@ For following numerical experiment steps, we will use dataset from the [IEEE PES
 - Observation of the change of accuracy according to the number of layers of fully connected layer (FCN).
 - Check accuracy of active set top-K classification for different test cases with change in training data set size.
 
-### Further Study (Optional)
+### Further Studies (Optional)
 
 - [ ] How to extend the proposed method to AC OPF with non-linear variations. 
 - [ ] Adding a set of parallel binary classifiers to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints. 
