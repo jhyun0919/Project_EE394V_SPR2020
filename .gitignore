@@ -1,2 +1,8 @@
 # ignore all heavy dataset
-codes/pglib-opf-master/*
+codes/pglib-opf-master/*.m
+codes/pglib-opf-master/*.md
+codes/pglib-opf-master/*.tex
+codes/pglib-opf-master/*.pickle
+codes/pglib-opf-master/api/*.m
+codes/pglib-opf-master/sad/*.m
+
