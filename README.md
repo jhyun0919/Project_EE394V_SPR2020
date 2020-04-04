@@ -10,6 +10,14 @@ If possible, further studies will be covered.
 - [ ] [Further Study Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes) (Optional)
 
 ---
+### Project Progress
+- [X] Build a data parser. (4 APR 20)
+- [ ] Data pre-process for each test case.
+- [ ] Build a neural nets classifier.
+- [ ] Tune the hyper-parameters & visualize the training process.
+- [ ] Finalize the report.
+- [ ] Prepare for the presentation.
+---
 
 ### Optimal Power Flow
 Optimal power flow is used in power system operational planning to estimate the most economical efficiency solution while satisfying demand and safety margins. 
@@ -36,7 +44,7 @@ For following numerical experiments steps, we will use dataset from the [IEEE PE
 - [ ] Extending the proposed method to AC OPF with non-linear variations. 
 - [ ] Adding a set of parallel binary classifiers to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints. 
 
+---
 
 ## References
-
 [1] D. Deka and S. Misra. “Learning for DC-OPF: Classifying active sets using neural nets,” 2019 IEEE Milan PowerTech, 2019.
