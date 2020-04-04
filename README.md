@@ -47,5 +47,5 @@ For following numerical experiments steps, we will use dataset from the [IEEE PE
 ---
 
 ## References
-[1] D. Deka and S. Misra. “Learning for DC-OPF: Classifying active sets using neural nets,” 2019 IEEE Milan PowerTech, 2019.
+[1] D. Deka and S. Misra. “Learning for DC-OPF: Classifying active sets using neural nets,” 2019 IEEE Milan PowerTech, 2019.  
 [2] The IEEE PES Task Force on Benchmarks for Validation of Emerging Power System Algorithms, “PGLib Optimal Power Flow Bench-marks,” Published online at https://github.com/power-grid-lib/pglib-opf, accessed: April 3, 2020.
