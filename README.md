@@ -3,6 +3,8 @@
 This is a repository managing a report and codes that implements the contents covered in [[1]](https://ieeexplore.ieee.org/document/8810819).  
 If possible, further studies will be covered.
 
+---
+
 ### Contents
 #### Reports
 - [X] [Project_Proposal.pdf](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf)
@@ -20,6 +22,8 @@ If possible, further studies will be covered.
 - [ ] Finalize the report.
 - [ ] Prepare for the presentation.
 ---
+
+## Brief description of the project
 
 ### Optimal Power Flow
 Optimal power flow is used in power system operational planning to estimate the most economical efficiency solution while satisfying demand and safety margins. 
