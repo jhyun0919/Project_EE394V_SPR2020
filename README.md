@@ -3,9 +3,13 @@
 This is a repository managing a report and codes that implements the contents covered in [[1]](https://ieeexplore.ieee.org/document/8810819).  
 If possible, further studies will be covered.
 
+---
+
 ### Contents
+#### Reports
 - [X] [Project_Proposal.pdf](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf)
 - [ ] [Project_Final_Report.pdf](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
+#### Codes
 - [ ] [Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes)
 - [ ] [Further Study Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes) (Optional)
 
@@ -18,6 +22,8 @@ If possible, further studies will be covered.
 - [ ] Finalize the report.
 - [ ] Prepare for the presentation.
 ---
+
+## Brief description of the project
 
 ### Optimal Power Flow
 Optimal power flow is used in power system operational planning to estimate the most economical efficiency solution while satisfying demand and safety margins. 
@@ -34,7 +40,7 @@ Optimal power flow is used in power system operational planning to estimate the 
 ### Experiments
 For following numerical experiments steps, we will use dataset from the [IEEE PES PGLib-OPF benchmark library](https://github.com/power-grid-lib/pglib-opf) [2].
 
-- Set up OPF Test-cases for the learning.
+- Set up OPF test-cases for the learning.
 - Check probability distribution of active sets of different OPF test-cases.
 - Observation of the change of accuracy according to the number of layers of fully connected layer (FCN).
 - Check accuracy of active set top-K classification for different test cases with change in training data set size.
