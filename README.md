@@ -15,7 +15,7 @@ If possible, further studies will be covered.
 
 ---
 ### Project Progress
-- [X] Build a data parser. (4 APR 20)
+- [X] Build a [data parser](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/pglib-opf-master/data_parser.ipynb). (4 APR 20)
 - [ ] Data pre-process for each test case.
 - [ ] Build a neural nets classifier.
 - [ ] Tune the hyper-parameters & visualize the training process.
