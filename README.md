@@ -38,6 +38,15 @@ Optimal power flow is used in power system operational planning to estimate the 
 - Propose the use of neural network as a classifier to enable extremely low computational complexity compared to the traditional method. 
 - Choose to learn the mapping from uncertainty realization to active constraints set at optimality instead of directly map to the adjustment in the generation, which will guarantee the satisfactory performance of the neural net classifier.
 
+<p align="center">
+  <img src="https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/figure/trad%20vs%20propsed.png?raw=true" height="350">
+  <br>
+    <em>Fig. 1: Traditional Methods vs. The Proposed Method.</em>
+</p>
+
+
+
+
 ### Experiments
 For following numerical experiments steps, we will use dataset from the [IEEE PES PGLib-OPF benchmark library](https://github.com/power-grid-lib/pglib-opf) [2].
 
