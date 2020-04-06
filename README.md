@@ -39,7 +39,7 @@ Optimal power flow is used in power system operational planning to estimate the 
 - Choose to learn the mapping from uncertainty realization to active constraints set at optimality instead of directly map to the adjustment in the generation, which will guarantee the satisfactory performance of the neural net classifier.
 
 <p align="center">
-  <img src="https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/figure/trad%20vs%20propsed.png?raw=true" height="350">
+  <img src="https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/figure/trad_vs_propsed.png?raw=true" height="350">
   <br>
     <em>Fig. 1: Traditional Methods vs. The Proposed Method.</em>
 </p>
