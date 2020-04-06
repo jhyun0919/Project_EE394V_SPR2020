@@ -24,7 +24,7 @@ If possible, further studies will be covered.
 - [ ] Prepare for the presentation.
 ---
 
-## Brief description of the project
+## Brief Description of the Project
 
 ### Optimal Power Flow
 Optimal power flow is used in power system operational planning to estimate the most economical efficiency solution while satisfying demand and safety margins. 
