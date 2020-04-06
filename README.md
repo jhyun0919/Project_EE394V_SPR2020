@@ -1,6 +1,6 @@
 # Optimal Power Flow Project - EE 394V SPR 2020
 
-This is a repository managing a report and codes that implements the contents covered in [[1]](https://ieeexplore.ieee.org/document/8810819).  
+This is a repository managing report files and experiment codes implementing the contents covered in [[1]](https://ieeexplore.ieee.org/document/8810819).  
 If possible, further studies will be covered.
 
 ---
