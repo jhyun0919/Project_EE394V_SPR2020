@@ -48,7 +48,7 @@ Optimal power flow is used in power system operational planning to estimate the 
 
 
 ### Experiments
-For following numerical experiments steps, we will use dataset from the [IEEE PES PGLib-OPF benchmark library](https://github.com/power-grid-lib/pglib-opf) [2].
+For following numerical experiments steps, we will use dataset from the [IEEE PES PGLib-OPF benchmark library](https://github.com/power-grid-lib/pglib-opf) [8].
 
 - Set up OPF test-cases for the learning.
 - Check probability distribution of active sets of different OPF test-cases.
@@ -63,5 +63,12 @@ For following numerical experiments steps, we will use dataset from the [IEEE PE
 ---
 
 ## References
-[1] D. Deka and S. Misra. “Learning for DC-OPF: Classifying active sets using neural nets,” 2019 IEEE Milan PowerTech, 2019.  
-[2] The IEEE PES Task Force on Benchmarks for Validation of Emerging Power System Algorithms, “PGLib Optimal Power Flow Bench-marks,” Published online at https://github.com/power-grid-lib/pglib-opf, accessed: April 3, 2020.
+
+[1] D. Deka and S. Misra. “Learning for DC-OPF: Classifying active sets using neural nets,” 2019 IEEE Milan PowerTech,2019.  
+[2] B. Borkowska, “Probabilistic load flow,” IEEE Transactions on Power App. Syst., vol. PAS-93, no. 3, pp. 752–759, 1974.   
+[3] M. Vrakopoulou, K. Margellos, J. Lygeros, and G. Andersson, “Probabilistic Guarantees for the N-1 Security of Systems with Wind Power Generation,” in Probabilistic Methods Applied to Power Systems (PMAPS), Istanbul, Turkey, 2012.   
+[4] L. Roald, S. Misra, T. Krause, and G. Andersson, “Corrective control to handle forecast uncertainty: A chance constrained optimal power flow,” IEEE Trans. Power Systems, vol. 32, no. 2, pp. 1626–1637, 2017.   
+[5] L. Roald, S. Misra, M. Chertkov, and G. Andersson, “Optimal power flow with weighted chance constraints and general policies for generation control,” in IEEE Conference on Decision and Control (CDC). IEEE, 2015, pp. 6927–6933.   
+[6] Y. Ng, S. Misra, L. A. Roald, and S. Backhaus, “Statistical learning for DC optimal power flow,” Jan. 2018.   
+[7] S. Misra, L. Roald, and Y. Ng, “Learning for convex optimization,” arXiv preprint arXiv:1802.09639, 2018.     
+[8] The IEEE PES Task Force on Benchmarks for Validation of Emerging Power System Algorithms, “PGLib Optimal Power Flow Bench-marks,” Published online at https://github.com/power-grid-lib/pglib-opf, accessed: April 3, 2020.  
