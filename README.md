@@ -1,14 +1,16 @@
-# OPF Project EE 394V SPR2020
+# Optimal Power Flow Project - EE 394V SPR 2020
 
-This is a repository managing a report and codes that implements the contents covered in [[1]](https://ieeexplore.ieee.org/document/8810819).  
+This is a repository managing report files and experiment codes implementing the contents covered in [[1]](https://ieeexplore.ieee.org/document/8810819).  
 If possible, further studies will be covered.
 
 ---
 
 ### Contents
 #### Reports
-- [X] [Project_Proposal.pdf](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf)
-- [ ] [Project_Final_Report.pdf](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
+- [X] [Project_Proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf)
+- [ ] [Project_Final_Report](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
+- [ ] [Project Presentation Slides](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/presentation.pptx)
+
 #### Codes
 - [ ] [Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes)
 - [ ] [Further Study Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes) (Optional)
@@ -24,14 +26,15 @@ If possible, further studies will be covered.
 - [ ] Prepare for the presentation.
 ---
 
-## Brief description of the project
+## Brief Description of the Project
 
 ### Optimal Power Flow
 Optimal power flow is used in power system operational planning to estimate the most economical efficiency solution while satisfying demand and safety margins. 
 
 ### Problem definition
 - Due to increasing uncertainty and variability in energy sources and demand, the optimal solution needs to be updated near real-time to respond to observed uncertainty realizations.
-- The existing method of solving the optimal problem could not cope with frequent updating due to the high computational complexity.
+- The existing methods, such as affine control policy [2][3][4] and ensemble control policy [6][7], could not cope with frequent updating due to the high computational complexity.
+- The use of machine learning to learn the mapping from uncertainty realization to the optimal solution (direct mapping) struggles when the size of the training dataset is not large enough.
 
 ### Main Contributions
 
@@ -39,7 +42,7 @@ Optimal power flow is used in power system operational planning to estimate the 
 - Choose to learn the mapping from uncertainty realization to active constraints set at optimality instead of directly map to the adjustment in the generation, which will guarantee the satisfactory performance of the neural net classifier.
 
 <p align="center">
-  <img src="https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/figure/trad%20vs%20propsed.png?raw=true" height="350">
+  <img src="https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/figure/trad_vs_propsed.png?raw=true" height="350">
   <br>
     <em>Fig. 1: Traditional Methods vs. The Proposed Method.</em>
 </p>
