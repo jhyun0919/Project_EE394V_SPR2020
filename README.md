@@ -31,7 +31,8 @@ Optimal power flow is used in power system operational planning to estimate the 
 
 ### Problem definition
 - Due to increasing uncertainty and variability in energy sources and demand, the optimal solution needs to be updated near real-time to respond to observed uncertainty realizations.
-- The existing method of solving the optimal problem could not cope with frequent updating due to the high computational complexity.
+- The existing methods, shuch as affine control policy [2][3][4] and ensemble control policy [6][7], could not cope with frequent updating due to the high computational complexity.
+- The use of machine learning to learn the mapping from uncertainty realization to the optimal solution (direct mapping) struggles when the size of the training dataset is not large enough.
 
 ### Main Contributions
 
