@@ -19,7 +19,7 @@ If possible, further studies will be covered.
 ### Project Progress
 - [X] Complete the [proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf). (30 MAR 20)
 - [X] Build a [data parser](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/pglib-opf-master/data_parser.ipynb). (04 APR 20)
-- [ ] [Pre-process dataset](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/data_preprocess.ipynb) as DC-OPF. (24 APR 20)
+- [ ] [Pre-process the datasets](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/data_preprocess.ipynb) as DC-OPF. (24 APR 20)
 - [X] Build a [DC-OPF constraints parser](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/data_preprocess.ipynb).
 - [X] Build the [DiscoverMass algorithm](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/data_preprocess.ipynb). (24 APR 20)
 - [X] Build the [dataset for learning](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/build_dataset_for_learning.ipynb). (25 APR 20)
