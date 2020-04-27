@@ -20,8 +20,9 @@ If possible, further studies will be covered.
 - [X] Complete the [proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf). (30 MAR 20)
 - [X] Build a [data parser](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/pglib-opf-master/data_parser.ipynb). (04 APR 20)
 - [X] [Pre-process dataset](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/data_preprocess.ipynb) as DC-OPF. (24 APR 20)
-- [ ] Build the [DiscoverMass Algorithm](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/data_preprocess.ipynb) as DC-OPF. (24 APR 20)
-- [ ] Build a [Neural Nets Classifier](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/classifier.ipynb). (25 APR 20)
+- [ ] Build [DC-OPF constraints parser](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/data_preprocess.ipynb).
+- [X] Build the [DiscoverMass Algorithm](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/data_preprocess.ipynb). (24 APR 20)
+- [X] Build a [Neural Nets Classifier](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/classifier.ipynb). (25 APR 20)
 - [ ] Tune the hyper-parameters & visualize the training process.
 - [ ] Finalize the report.
 - [ ] Prepare for the presentation.
