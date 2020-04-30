@@ -20,7 +20,7 @@ If possible, further studies will be covered.
 - [X] Complete the [proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf). 
 - [X] [Datasets pre-processing](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/1.%20Build_Dataset_for_NNs.ipynb).  
 - [X] Build the [DiscoverMass algorithm](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/etc/discover_mass.py). 
-- [X] Build a [neural nets classifier](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/classifier.ipynb). 
+- [X] Build a [Neural Nets Classifier](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/2.%20Classifier%20NNs.ipynb). 
 - [X] Tune the hyper-parameters & visualize the training process.
 - [ ] Finalize the report.
 - [ ] Prepare for the presentation.
