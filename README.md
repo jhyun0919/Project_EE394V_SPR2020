@@ -8,12 +8,11 @@ If possible, further studies will be covered.
 ### Contents
 #### Reports
 - [X] [Project_Proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf)
-- [ ] [Project_Final_Report](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
 - [ ] [Project Presentation Slides](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/presentation.pptx)
+- [ ] [Project_Final_Report](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
 
 #### Codes
 - [X] [Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes)
-- [ ] [Further Study Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes) (Optional)
 
 ---
 ### Project Progress
@@ -23,8 +22,8 @@ If possible, further studies will be covered.
 - [X] Build the [DiscoverMass algorithm](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/etc/discover_mass.py). 
 - [X] Build a [Neural Nets Classifier](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/2.%20Classifier%20NNs.ipynb). 
 - [X] Tune the hyper-parameters & visualize the training process.
-- [ ] Finalize the report.
 - [ ] Prepare for the presentation.
+- [ ] Finalize the report.
 ---
 
 ## Brief Description of the Project
@@ -47,8 +46,6 @@ Optimal power flow is used in power system operational planning to estimate the 
   <br>
     <em>Fig. 1: Traditional Methods vs. The Proposed Method.</em>
 </p>
-
-
 
 
 ### Experiments
