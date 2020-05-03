@@ -7,19 +7,21 @@ If possible, further studies will be covered.
 
 ### Contents
 #### Reports
-- [X] [Project_Proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf)
-- [ ] [Project Presentation Slides](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/presentation.pptx)
-- [ ] [Project_Final_Report](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
+- [Project_Proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf)
+- [Project Presentation Slides](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/presentation.pptx)
+- [Project_Final_Report](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
 
 #### Codes
-- [X] [Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes)
+- [DC-OPF solver](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/matpower7.0/dc_opf_solver.m). 
+- [Data Pre-processing](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/1.%20Build_Dataset_for_NNs.ipynb). 
+- [Classification](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/2.%20Classifier%20NNs.ipynb)
 
 ---
 ### Project Progress
-- [X] Complete the [proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf). 
-- [X] Build a [DC-OPF solver](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/matpower7.0/dc_opf_solver.m).
-- [X] [Pre-process](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/1.%20Build_Dataset_for_NNs.ipynb) the given datasets.   
-- [X] Build a [Neural Nets Classifier](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/2.%20Classifier%20NNs.ipynb). 
+- [X] Complete the proposal. 
+- [X] Build a DC-OPF solver.
+- [X] Pre-process the given datasets.   
+- [X] Build a Neural Nets Classifier. 
 - [X] Tune the hyper-parameters & visualize the training process.
 - [ ] Prepare for the presentation.
 - [ ] Finalize the report.
