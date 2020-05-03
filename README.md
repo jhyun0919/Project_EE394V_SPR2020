@@ -22,7 +22,8 @@ If possible, further studies will be covered.
 - [X] Build a DC-OPF solver.
 - [X] Pre-process the given datasets.   
 - [X] Build a Neural Nets Classifier. 
-- [X] Tune the hyper-parameters & visualize the training process.
+- [X] Tune the hyper-parameters.  
+- [X] Visualize the training process & test result.
 - [ ] Prepare for the presentation.
 - [ ] Finalize the report.
 ---
@@ -60,7 +61,7 @@ For following numerical experiments steps, we will use dataset from the [IEEE PE
 ### Further Studies (Optional)
 
 - [ ] Extending the proposed method to AC OPF with non-linear variations. 
-- [X] Fix the Classifier from single-label to multi-label ver. to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints. 
+- [X] **Change the Classifier from single-label to multi-label ver.** to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints. 
 
 ---
 
