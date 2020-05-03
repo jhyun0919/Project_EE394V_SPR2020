@@ -8,12 +8,11 @@ If possible, further studies will be covered.
 ### Contents
 #### Reports
 - [X] [Project_Proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf)
-- [ ] [Project_Final_Report](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
 - [ ] [Project Presentation Slides](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/presentation.pptx)
+- [ ] [Project_Final_Report](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf)
 
 #### Codes
 - [X] [Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes)
-- [ ] [Further Study Implementation Codes](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/tree/master/codes) (Optional)
 
 ---
 ### Project Progress
@@ -23,8 +22,8 @@ If possible, further studies will be covered.
 - [X] Build the [DiscoverMass algorithm](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/etc/discover_mass.py). 
 - [X] Build a [Neural Nets Classifier](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/2.%20Classifier%20NNs.ipynb). 
 - [X] Tune the hyper-parameters & visualize the training process.
-- [ ] Finalize the report.
 - [ ] Prepare for the presentation.
+- [ ] Finalize the report.
 ---
 
 ## Brief Description of the Project
@@ -49,8 +48,6 @@ Optimal power flow is used in power system operational planning to estimate the 
 </p>
 
 
-
-
 ### Experiments
 For following numerical experiments steps, we will use dataset from the [IEEE PES PGLib-OPF benchmark library](https://github.com/power-grid-lib/pglib-opf) [8].
 
@@ -62,7 +59,7 @@ For following numerical experiments steps, we will use dataset from the [IEEE PE
 ### Further Studies (Optional)
 
 - [ ] Extending the proposed method to AC OPF with non-linear variations. 
-- [ ] Adding a set of parallel binary classifiers to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints. 
+- [X] Fix the Classifier from single-label to multi-label ver. to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints. 
 
 ---
 
