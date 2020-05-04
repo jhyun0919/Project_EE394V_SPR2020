@@ -60,7 +60,7 @@ For following numerical experiments steps, we will use dataset from the [IEEE PE
 
 ### Further Studies (Optional)
 
-- [X] **Change the Classifier from single-label to multi-label ver.** to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints.  
+- [X] **Instead of focusing on active constraints classification (softmax output layer), it was replaced with a model that determines which of the given constraints is acive (multi-label binary output layer).** This change allows us to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints.  
 - [ ] Extending the proposed method to AC OPF with non-linear variations.
 
 
