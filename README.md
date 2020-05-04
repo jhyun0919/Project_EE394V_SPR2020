@@ -60,8 +60,9 @@ For following numerical experiments steps, we will use dataset from the [IEEE PE
 
 ### Further Studies (Optional)
 
-- [ ] Extending the proposed method to AC OPF with non-linear variations. 
-- [X] **Change the Classifier from single-label to multi-label ver.** to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints. 
+- [X] **Change the Classifier from single-label to multi-label ver.** to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints.  
+- [ ] Extending the proposed method to AC OPF with non-linear variations.
+
 
 ---
 
