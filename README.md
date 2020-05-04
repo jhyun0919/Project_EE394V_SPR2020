@@ -14,7 +14,7 @@ If possible, further studies will be covered.
 #### Codes
 - [DC-OPF solver](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/matpower7.0/dc_opf_solver.m). 
 - [Data Pre-processing](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/1.%20Build_Dataset_for_NNs.ipynb). 
-- [Classification NNs](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/2.%20Classifier%20NNs.ipynb). 
+- [Multi-Label Classification NNs](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/codes/experiments/2.%20Classifier%20NNs.ipynb). 
 
 ---
 ### Project Progress
