@@ -8,7 +8,7 @@ If possible, further studies will be covered.
 ### Contents
 #### Reports
 - [Project Proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf). 
-- [Project Presentation Slides](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/presentation.pptx). 
+- [Project Presentation Slides](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/presentation_slides.pptx). 
 - [Project_Final_Report](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf). 
 
 #### Codes
