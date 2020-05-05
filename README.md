@@ -54,9 +54,8 @@ Optimal power flow is used in power system operational planning to estimate the 
 For following numerical experiments steps, we will use dataset from the [IEEE PES PGLib-OPF benchmark library](https://github.com/power-grid-lib/pglib-opf) [8].
 
 - Set up OPF test-cases for the learning.
-- Check probability distribution of active sets of different OPF test-cases.
-- Observation of the change of accuracy according to the number of layers of fully connected layer (FCN).
-- Check accuracy of active set top-K classification for different test cases with change in training data set size.
+- Check active constraints distribution of different OPF test-cases.
+- Visualize the active constraints distribution.
 
 ### Further Studies (Optional)
 
