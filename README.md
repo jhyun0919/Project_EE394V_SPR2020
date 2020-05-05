@@ -51,7 +51,7 @@ Optimal power flow is used in power system operational planning to estimate the 
 
 ### Experiments
 
-**Instead of focusing on active constraints classification (softmax output layer), it was replaced with a model that determines which of the given constraints is acive (multi-label binary output layer).** This change allows us to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints.  
+Instead of focusing on active constraints classification (softmax output layer), we set up a model that determines which of the given constraints is active (multi-label binary output layer). This change allows us to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints.  
 For following numerical experiments steps, we will use dataset from the [IEEE PES PGLib-OPF benchmark library](https://github.com/power-grid-lib/pglib-opf) [8].
 
 - Set up OPF test-cases for the learning.
