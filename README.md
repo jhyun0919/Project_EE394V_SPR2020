@@ -50,6 +50,8 @@ Optimal power flow is used in power system operational planning to estimate the 
 
 
 ### Experiments
+
+**Instead of focusing on active constraints classification (softmax output layer), it was replaced with a model that determines which of the given constraints is acive (multi-label binary output layer).** This change allows us to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints.  
 For following numerical experiments steps, we will use dataset from the [IEEE PES PGLib-OPF benchmark library](https://github.com/power-grid-lib/pglib-opf) [8].
 
 - Set up OPF test-cases for the learning.
@@ -57,9 +59,8 @@ For following numerical experiments steps, we will use dataset from the [IEEE PE
 - Visualize the active constraints distribution.
 
 ### Further Studies (Optional)
-
-- [X] **Instead of focusing on active constraints classification (softmax output layer), it was replaced with a model that determines which of the given constraints is acive (multi-label binary output layer).** This change allows us to predict the status of individual constraints separately, which will be an approach to develop a deeper understanding of various operational patterns, such as clustering of constraints.  
 - [ ] Extending the proposed method to AC OPF with non-linear variations.
+- [ ] Get information about relationship between constraints through attention model, aush as Transformer [9].
 
 
 ---
@@ -73,4 +74,5 @@ For following numerical experiments steps, we will use dataset from the [IEEE PE
 [5] L. Roald, S. Misra, M. Chertkov, and G. Andersson, “Optimal power flow with weighted chance constraints and general policies for generation control,” in IEEE Conference on Decision and Control (CDC). IEEE, 2015, pp. 6927–6933.   
 [6] Y. Ng, S. Misra, L. A. Roald, and S. Backhaus, “Statistical learning for DC optimal power flow,” Jan. 2018.   
 [7] S. Misra, L. Roald, and Y. Ng, “Learning for convex optimization,” arXiv preprint arXiv:1802.09639, 2018.     
-[8] The IEEE PES Task Force on Benchmarks for Validation of Emerging Power System Algorithms, “PGLib Optimal Power Flow Bench-marks,” Published online at https://github.com/power-grid-lib/pglib-opf, accessed: April 3, 2020.  
+[8] The IEEE PES Task Force on Benchmarks for Validation of Emerging Power System Algorithms, “PGLib Optimal Power Flow Bench-marks,” Published online at https://github.com/power-grid-lib/pglib-opf, accessed: April 3, 2020.   
+[9] Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Jakob, Jones, Gomez, A. N., Kaiser, Lukasz, Polosukhin, and Illia, “Attention Is All You Need,” arXiv.org, Dec. 2017. 
