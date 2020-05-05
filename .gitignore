@@ -1,11 +1,17 @@
 # ignore all heavy dataset
 codes/experiments/pglib-opf-master/*.m
+
 codes/experiments/pglib-opf-master/*.md
+
 codes/experiments/pglib-opf-master/*.tex
+
 codes/experiments/pglib-opf-master/*.pickle
+
 codes/experiments/pglib-opf-master/api/*.m
+
 codes/experiments/pglib-opf-master/sad/*.m
 
+codes/experiments/logs/
 
 codes/experiments/matpower7.0/README.md
 
@@ -68,3 +74,5 @@ codes/experiments/.ipynb_checkpoints/
 codes/experiments/.DS_Store
 
 .DS_Store
+
+codes/experiments/datasets/
