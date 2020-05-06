@@ -55,7 +55,7 @@ Instead of focusing on active constraints classification (softmax output layer),
 For following numerical experiments steps, we will use dataset from the [IEEE PES PGLib-OPF benchmark library](https://github.com/power-grid-lib/pglib-opf) [8].
 
 - Set up OPF test-cases for the learning.
-- Check the distribution of active constraints of different OPF test-cases.
+- Check the distribution of active constraints of the OPF test-cases.
 - Visualize the active constraints distribution.
 
 ### Further Studies (Optional)
