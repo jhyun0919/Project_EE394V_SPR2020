@@ -8,7 +8,7 @@ If possible, further studies will be covered.
 ### Contents
 #### Reports
 - [Project Proposal](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/proposal.pdf). 
-- [Project Presentation Slides](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/presentation_slides.pptx). 
+- [Project Presentation Slides](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/Park.pptx). 
 - [Project_Final_Report](https://github.com/jhyun0919/OPF_Porject_EE394V_SPR2020/blob/master/report/final_report.pdf). 
 
 #### Codes
@@ -55,7 +55,7 @@ Instead of focusing on active constraints classification (softmax output layer),
 For following numerical experiments steps, we will use dataset from the [IEEE PES PGLib-OPF benchmark library](https://github.com/power-grid-lib/pglib-opf) [8].
 
 - Set up OPF test-cases for the learning.
-- Check the distribution of active constraints of different OPF test-cases.
+- Check the distribution of active constraints of the OPF test-cases.
 - Visualize the active constraints distribution.
 
 ### Further Studies (Optional)
