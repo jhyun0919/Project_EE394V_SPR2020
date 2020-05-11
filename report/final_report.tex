@@ -143,7 +143,7 @@ In Section 4, We verified operational patterns through experiments and checked i
 \caption{Architecture of the Neural Network Classifier.}
 \end{figure}
 
-We use a simple multi-Dense layer neural networks for our classification task. The generic structure of the classifier is shown in Figure 1. This classifier receives $\omega$ as an input argument $x$, and $y$ returned as output is a binary vector representing active/inactive of each constraints. It should be noted that the activation function of each layer is ReLUs (Rectified Linear Units), but the sigmoid function must be the activation function in the last layer to receive binary output. In addition, to eliminate the issue of covariance shift and regularizing issue, we use batch normalization\cite{batch_norm} and dropout\cite{dropout} for each Dense layer. We use binary cross entropy\cite{bin_cross_entropy} as a loss function and Adam\cite{adam} as an optimizer.
+We use a simple multi-Dense layer neural networks set up by Tensorflow for our classification task. The generic structure of the classifier is shown in Figure 1. This classifier receives $\omega$ as an input argument $x$, and $y$ returned as output is a binary vector representing active/inactive of each constraints. It should be noted that the activation function of each layer is ReLUs (Rectified Linear Units), but the sigmoid function must be the activation function in the last layer to receive binary output. In addition, to eliminate the issue of covariance shift and regularizing issue, we use batch normalization\cite{batch_norm} and dropout\cite{dropout} for each Dense layer. We use binary cross entropy\cite{bin_cross_entropy} as a loss function and Adam\cite{adam} as an optimizer.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
