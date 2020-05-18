@@ -25,7 +25,7 @@ If possible, further studies will be covered.
 - [X] Tune the hyper-parameters.  
 - [X] Visualize the training process & test result.
 - [X] Prepare for the presentation.
-- [ ] Finalize the report.
+- [X] Finalize the report.
 ---
 
 ## Brief Description of the Project
