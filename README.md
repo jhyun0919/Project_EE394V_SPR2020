@@ -60,7 +60,7 @@ For following numerical experiments steps, we will use dataset from the [IEEE PE
 
 ### Further Studies (Optional)
 - [ ] Extending the proposed method to AC OPF with non-linear variations.
-- [ ] Trying to get information about relationship between constraints through attention model, such as Transformer [9].
+- [ ] Trying to get weight mapping between uncertainty realization and constraints through attention model, such as Transformer [9].
 
 
 ---
